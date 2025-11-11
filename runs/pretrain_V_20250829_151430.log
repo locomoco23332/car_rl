@@ -1,0 +1,13 @@
+Using Python: /home/nayaehyun/car-ppo/.venv/bin/python
+Logging to /home/nayaehyun/car-ppo/runs/pretrain_V_20250829_151430.log
+nohup: 입력 무시
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nayaehyun/car-ppo/scripts/pretrain_V_from_npz.py", line 5, in <module>
+    from src.model_G import WorldModelG  # encoder + LatentDiffusionAdapter 포함
+  File "/home/nayaehyun/car-ppo/src/model_G.py", line 2643, in <module>
+    from torch_geometric.nn import GCNConv
+ModuleNotFoundError: No module named 'torch_geometric'
