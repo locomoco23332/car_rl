@@ -1,0 +1,13 @@
+env_id: CarRacing-v2
+n_envs: 4
+frame_stack: 4
+resize: [84, 84]
+gray: true
+total_steps: 1000000
+learning_rate: 0.0003
+n_steps: 1024
+batch_size: 256
+gamma: 0.99
+gae_lambda: 0.95
+clip_range: 0.2
+
